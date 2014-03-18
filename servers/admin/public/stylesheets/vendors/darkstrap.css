@@ -13,7 +13,7 @@ textarea, .progress, code, pre {
 
 /* line 33, ../sass/darkstrap.scss */
 body {
-  background: #2f2f2f;
+  background: 176A97;
   color: #c6c6c6;
 }
 
@@ -376,12 +376,17 @@ legend {
 
 /* line 245, ../sass/darkstrap.scss */
 .modal {
-  background-color: #444;
+  background-color: #538EAE;
+    border-radius: 0px;
+    -moz-box-shadow: 0 0px 0 ;
+-webkit-box-shadow: 0 0px 0;
+-o-box-shadow: 0 px  ;
+box-shadow: 0 px t;
 }
 
 /* line 248, ../sass/darkstrap.scss */
 .modal-header {
-  border-bottom: 1px solid #222;
+ /* border-bottom: 1px solid #222;*/
 }
 
 /* line 251, ../sass/darkstrap.scss */
@@ -391,12 +396,12 @@ legend {
 
 /* line 254, ../sass/darkstrap.scss */
 .modal-footer {
-  background-color: #373737;
+  background-color: #538EAE;
   border-top: 1px solid #222;
-  -moz-box-shadow: 0 1px 0 #333333 inset;
+  /*-moz-box-shadow: 0 1px 0 #333333 inset;
   -webkit-box-shadow: 0 1px 0 #333333 inset;
   -o-box-shadow: 0 1px 0 #333333 inset;
-  box-shadow: 0 1px 0 #333333 inset;
+  box-shadow: 0 1px 0 #333333 inset;*/
 }
 
 /* line 266, ../sass/darkstrap.scss */

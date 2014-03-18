@@ -1,4 +1,4 @@
-# PredictionIO Shared Shell Code
+# KIP Engine Platform Shared Shell Code
 
 # This script should be sourced with $BASE set to the base of the repository
 

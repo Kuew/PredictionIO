@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-# PredictionIO Updater Package Script
+# KIP Engine Platform Updater Package Script
 
 # NOTE: Run this script after bin/build.sh to package things up as an updater
 

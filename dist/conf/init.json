@@ -2,7 +2,7 @@
     "systeminfos": {
         "version": {
             "value": "0.7.0-SNAPSHOT",
-            "description": "PredictionIO version"
+            "description": "KIP Engine Platform version"
         },
         "jars.pdioItemrecAlgo": {
             "value": "predictionio-process-hadoop-scalding-assembly-0.7.0-SNAPSHOT.jar"

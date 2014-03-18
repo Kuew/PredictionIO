@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-# PredictionIO Build Script
+# KIP Engine Build Script
 
 set -e
 
@@ -27,7 +27,7 @@ else
     CLEAN=
 fi
 
-echo "Going to build PredictionIO..."
+echo "Going to build KIP Engine Platform..."
 BASE_TARGETS="update compile commons/publish output/publish"
 
 if test "$SKIP_PROCESS" = "1" ; then
@@ -98,16 +98,16 @@ BASE_TARGETS="$BASE_TARGETS toolsUsers/pack"
 $SBT $CLEAN $BASE_TARGETS
 
 # Build admin server
-echo "Going to build PredictionIO Admin Server..."
+echo "Going to build KIP Engine Platform Admin Server..."
 cd $BASE/servers/admin
 $PLAY $CLEAN update compile
 
 # Build API server
-echo "Going to build PredictionIO API Server..."
+echo "Going to build KIP Engine Platform API Server..."
 cd $BASE/servers/api
 $PLAY $CLEAN update compile
 
 # Build scheduler server
-echo "Going to build PredictionIO Scheduler Server..."
+echo "Going to build KIP Engine Platform Scheduler Server..."
 cd $BASE/servers/scheduler
 $PLAY $CLEAN update compile

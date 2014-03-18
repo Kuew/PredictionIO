@@ -1,12 +1,16 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100);
 * {
 	margin: 0;
 }
 
 html,body {
 	height: 100%;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .wrapper {
@@ -32,11 +36,11 @@ h1, h2, h3, h4, h5, h6 {
 	text-shadow: 0 1px 1px #000000;
 }
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-    background: none repeat scroll 0 0 #212121 !important;
-    border: 1px solid #0F0F0F;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5) inset, 0 1px 0 rgba(255, 255, 255, 0.1);
-    color: #ffffff;
-    text-shadow: 0 1px 3px #000000;
+    background: none repeat scroll 0 0 #fff !important;
+    border: 1px solid fff;
+   /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5) inset, 0 1px 0 rgba(255, 255, 255, 0.1);*/
+    color: darkslateblue;
+   /* text-shadow: 0 1px 3px #000000;*/
 
 }
 input::-webkit-input-placeholder {
@@ -83,9 +87,9 @@ input:focus:-ms-input-placeholder {
 
 /* Silver box */
 .modal.modal-inverse {
-    background-color: #E7EBED;
+   /* background-color: #E7EBED;
     border-radius: 4px 4px 4px 4px;
-    box-shadow: 1px 1px 5px #000000;
+    box-shadow: 1px 1px 5px #000000;*/
     margin: 0 auto 60px;
 }
 .modal.modal-inverse a { 
@@ -254,7 +258,9 @@ body {
 	min-width: 1150px;
 	padding-top: 20px;
 }
-
+.navbar-inverse .navbar-inner{
+    background-color: tomato;
+}
 .footer {
     background-color: #2b2b2b;
     text-align: center;

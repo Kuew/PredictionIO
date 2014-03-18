@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-# PredictionIO Package Script
+# KIP Engine Platform Package Script
 
 # NOTE: Run this script after bin/build.sh to package things up
 
@@ -21,17 +21,17 @@ BASE=`pwd`
 . "$BASE/bin/vendors.sh"
 
 # Package admin server
-echo "Going to package PredictionIO Admin Server..."
+echo "Going to package KIP Engine Platform Admin Server..."
 cd $ADMIN_DIR
 $PLAY stage
 
 # Package API server
-echo "Going to package PredictionIO API Server..."
+echo "Going to package KIP Engine Platform API Server..."
 cd $API_DIR
 $PLAY stage
 
 # Package scheduler server
-echo "Going to package PredictionIO Scheduler Server..."
+echo "Going to package KIP Engine Platform Scheduler Server..."
 cd $SCHEDULER_DIR
 $PLAY stage
 
